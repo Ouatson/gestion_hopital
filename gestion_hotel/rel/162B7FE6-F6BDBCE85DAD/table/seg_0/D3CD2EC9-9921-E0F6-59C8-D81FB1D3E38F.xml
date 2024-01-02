@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3CD2EC9-9921-E0F6-59C8-D81FB1D3E38F" name="rendez_vous">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 19:54:23 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rendez_vous_id" id="8FF1CD1E-31B4-E3FF-AA87-03DF1B4A951A">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 19:56:52 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_heure" id="899600F3-087F-0D3E-E094-BC23641632AB">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 19:56:52 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motif" id="9598D090-457F-8ED9-76E5-4A7E17632A96">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 19:56:52 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1C3416F-C8DE-7513-EBF3-B50712C10C4F" name="rendez_vous_PK">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 19:56:52 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FF1CD1E-31B4-E3FF-AA87-03DF1B4A951A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

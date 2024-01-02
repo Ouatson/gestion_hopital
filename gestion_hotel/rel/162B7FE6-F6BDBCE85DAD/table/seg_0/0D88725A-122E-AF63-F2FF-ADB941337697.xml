@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D88725A-122E-AF63-F2FF-ADB941337697" name="rapport_analyses">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:09:02 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rapportId" id="09B2C8F7-40DE-4C46-1E81-ACA288952034">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:12:12 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="0CB0F617-1E5F-B3D2-92C7-084F39F4200E">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:12:12 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_heure" id="DDAC1FFB-AE72-9E11-F686-DEDC3FD04D04">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:12:12 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contenu" id="9131B525-C3CD-3DB7-53C4-F738B0ACE7D8">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:12:12 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61B633B4-64EE-69A0-152B-5837020C1C78" name="rapport_analyses_PK">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:12:12 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09B2C8F7-40DE-4C46-1E81-ACA288952034"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

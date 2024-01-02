@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F99DD30-D787-A9D7-F36E-18B9289ECAAB" name="prescriptions">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 19:56:55 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prescription_id" id="31A9EB48-D4A0-F8C1-88C9-D107A1007417">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:00:33 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medicaments" id="C398388C-05B8-2D4D-72DF-FB7A4DAFD262">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:00:33 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dosage" id="D7A3844F-7ADA-092E-7100-E6F28E95AE79">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:00:33 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instructions" id="60833FB1-B5B7-9A5B-E128-8474313BB966">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:00:33 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AC8BC88-E3C3-32A8-FADB-A89F0650CBBC" name="prescriptions_PK">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-02 20:00:33 UTC</createdTime>
+<ownerDesignName>gestion_hotel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31A9EB48-D4A0-F8C1-88C9-D107A1007417"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
