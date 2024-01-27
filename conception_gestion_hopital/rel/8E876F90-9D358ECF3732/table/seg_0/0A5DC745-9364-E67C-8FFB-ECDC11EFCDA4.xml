@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A5DC745-9364-E67C-8FFB-ECDC11EFCDA4" name="Dossier_medical">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:07:17 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6F0606D4-840B-8C6D-D2CD-38C93AD29DE0">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:10:22 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="historique_medical" id="44C72D30-252D-AB34-933D-6D115386CAA9">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:10:22 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="allergies" id="72204625-4F3B-1E20-1AF5-42DC843A419E">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:10:22 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="groupe_sanguin" id="9301820D-5FB6-0FE5-2308-8A7B1CA0DBD0">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:10:22 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_id" id="64B59B37-D8EB-B589-3230-17C7ABE12F2A">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:50:34 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25A23720-A7F6-1716-FA6A-8C540D9C2C6F" referredColumn="ED0F1128-22D7-3358-D80C-28C51FD0FE47"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1062BC5A-4211-C279-5D83-C55C62A18A26" name="Dossier_medical_PK">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:26:59 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F0606D4-840B-8C6D-D2CD-38C93AD29DE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C966DF71-4340-625E-3381-089730A53AFC" name="idPatient_FK">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:50:34 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64B59B37-D8EB-B589-3230-17C7ABE12F2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

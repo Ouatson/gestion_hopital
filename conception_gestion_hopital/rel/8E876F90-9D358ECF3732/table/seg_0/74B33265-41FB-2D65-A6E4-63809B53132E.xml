@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74B33265-41FB-2D65-A6E4-63809B53132E" name="Medecin">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:16:42 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B7949D1C-DB9B-BFA8-5A06-E6C40353C405">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:22:56 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="C7317971-45A4-B820-A84D-84C78B379786">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:22:56 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom" id="4CA1272B-A93F-FAE3-D002-8C0BC58B7A45">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:22:56 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="specialite" id="40C72969-B22E-0F7E-6D6B-1A81920551BB">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:22:56 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37A86038-90C0-24DB-3B80-9FE999BF8B72" name="Medecin_PK">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:26:45 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7949D1C-DB9B-BFA8-5A06-E6C40353C405"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

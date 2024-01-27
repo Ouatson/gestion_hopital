@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="conception_gestion_hopital" id="4863D6C4-209D-B5B8-08FE-81DA30C3EEED" version="3.5">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 14:59:46 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4863D6C4-209D-B5B8-08FE-81DA30C3EEED</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6037B4AD-EAFA-D1B1-9537-D4C77D1FB8BD">
+<designStoragePath>C:\Users\ouats\OneDrive\Documents\Cycle Ingénieur\ESIEA\Ingenierie 1\SQL\gestion_hotel</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

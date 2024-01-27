@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F211747E-7368-8088-E0DF-D10D03CE50E7" name="Evenement_hospitalier">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:27:28 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="45CA13A6-1143-9488-3B59-E7DF6C03434D">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:28:41 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="4C95ABA5-E277-207E-6324-87D0B6533C68">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:28:41 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dateHeure_debut" id="9EDEB5EE-A60F-0A85-DC88-D907E565BCE7">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:28:41 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dateHeure_fin" id="67818342-D37A-F9B8-39F2-FD73EE0B37EE">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:28:41 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_id" id="249292D5-2347-76A5-8DA2-4ACB8071D4C9">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 18:01:24 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FB922AE-5019-F002-DD52-396712AD507A" referredColumn="ED0F1128-22D7-3358-D80C-28C51FD0FE47"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38EA8D7A-23BD-5BBA-B615-9B358EA62560" name="Evenement_hospitalier_PK">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 17:28:41 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45CA13A6-1143-9488-3B59-E7DF6C03434D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FBB4F12-2851-894D-F168-B36AC00A6D61" name="idPatient_FKv3">
+<createdBy>ouats</createdBy>
+<createdTime>2024-01-27 18:01:24 UTC</createdTime>
+<ownerDesignName>conception_gestion_hopital</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249292D5-2347-76A5-8DA2-4ACB8071D4C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
